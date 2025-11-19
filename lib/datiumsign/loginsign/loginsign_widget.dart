@@ -78,7 +78,7 @@ class _LoginsignWidgetState extends State<LoginsignWidget> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Image.asset(
-                                    'assets/images/logovadavo.png',
+                                    'assets/images/Mi_jornada_512x512.png',
                                     width:
                                         MediaQuery.sizeOf(context).width * 0.9,
                                     height: MediaQuery.sizeOf(context).height *

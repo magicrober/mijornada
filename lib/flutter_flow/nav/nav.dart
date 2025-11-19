@@ -44,9 +44,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       errorBuilder: (context, state) => appStateNotifier.showSplashImage
           ? Builder(
               builder: (context) => Container(
-                color: FlutterFlowTheme.of(context).primaryBackground,
+                color: FlutterFlowTheme.of(context).primary,
                 child: Image.asset(
-                  'assets/images/logovadavo.png',
+                  'assets/images/Mi_jornada_512x512.png',
                   fit: BoxFit.contain,
                 ),
               ),
@@ -59,9 +59,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, _) => appStateNotifier.showSplashImage
               ? Builder(
                   builder: (context) => Container(
-                    color: FlutterFlowTheme.of(context).primaryBackground,
+                    color: FlutterFlowTheme.of(context).primary,
                     child: Image.asset(
-                      'assets/images/logovadavo.png',
+                      'assets/images/Mi_jornada_512x512.png',
                       fit: BoxFit.contain,
                     ),
                   ),
